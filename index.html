@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sundus — UI/UX Designer</title>
+<meta name="description" content="Portfolio of Sundus, a UI/UX designer crafting clean, human-centered digital experiences." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="logo">Sundus</a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">◐</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero wrap">
+    <p class="eyebrow">UI/UX Designer</p>
+    <h1>I design clear, considered<br />digital products.</h1>
+    <p class="lede">I'm Sundus — I turn complex problems into simple, usable interfaces. Currently open to freelance and full-time roles.</p>
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary">View work</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </section>
+
+  <section id="work" class="work wrap">
+    <h2 class="section-title">Selected work</h2>
+
+    <div class="projects">
+
+      <article class="project">
+        <div class="project-thumb" style="--tint:#e7e2da;">
+          <span class="thumb-label">Case Study</span>
+        </div>
+        <div class="project-body">
+          <h3>Finch — Budgeting app redesign</h3>
+          <p>Simplified a cluttered finance app into a focused, three-tap experience. Led research, IA, and visual design.</p>
+          <div class="tags"><span>UX Research</span><span>Mobile</span><span>Design System</span></div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-thumb" style="--tint:#dfe4e1;">
+          <span class="thumb-label">Case Study</span>
+        </div>
+        <div class="project-body">
+          <h3>Loom Studio — SaaS dashboard</h3>
+          <p>Designed an analytics dashboard for creative teams, reducing time-to-insight through progressive disclosure.</p>
+          <div class="tags"><span>Web App</span><span>Data Viz</span><span>Prototyping</span></div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-thumb" style="--tint:#e6ded9;">
+          <span class="thumb-label">Case Study</span>
+        </div>
+        <div class="project-body">
+          <h3>Arc & Co — Brand + web</h3>
+          <p>End-to-end identity and site for a boutique architecture firm — from moodboard to responsive build.</p>
+          <div class="tags"><span>Branding</span><span>Web Design</span><span>Art Direction</span></div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-thumb" style="--tint:#dee1e6;">
+          <span class="thumb-label">Case Study</span>
+        </div>
+        <div class="project-body">
+          <h3>Nomad — Travel booking flow</h3>
+          <p>Reduced booking abandonment by 22% through a streamlined checkout and clearer trust signals.</p>
+          <div class="tags"><span>UX Strategy</span><span>Conversion</span><span>A/B Testing</span></div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="about" class="about wrap">
+    <h2 class="section-title">About</h2>
+    <div class="about-grid">
+      <p class="about-text">
+        I'm a UI/UX designer with a background in visual design and front-end development.
+        I care about the small decisions — spacing, hierarchy, motion — that make a product feel
+        effortless. My process starts with listening: to users, to data, to the constraints of
+        the team I'm working with. I've worked with early-stage startups and established products,
+        always pushing toward clarity over cleverness.
+      </p>
+      <ul class="skills">
+        <li>Product Strategy</li>
+        <li>Wireframing &amp; Prototyping</li>
+        <li>Design Systems</li>
+        <li>User Research</li>
+        <li>Figma / Framer</li>
+        <li>Front-end (HTML/CSS/JS)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact wrap">
+    <h2 class="section-title">Let's work together</h2>
+    <p class="contact-lede">Have a project in mind, or just want to say hi?</p>
+    <a href="mailto:sunduslive@gmail.com" class="btn btn-primary btn-large">sunduslive@gmail.com</a>
+    <div class="socials">
+      <a href="#">LinkedIn</a>
+      <a href="#">Dribbble</a>
+      <a href="#">Twitter</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer wrap">
+  <p>&copy; <span id="year"></span> Sundus. Designed &amp; built with care.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
