@@ -6,6 +6,8 @@
 <title>Sundus — UI/UX Designer</title>
 <meta name="description" content="Portfolio of Sundus, a UI/UX designer crafting clean, human-centered digital experiences." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -24,13 +26,16 @@
 
 <main id="top">
 
-  <section class="hero wrap">
-    <p class="eyebrow">UI/UX Designer</p>
-    <h1>I design clear, considered<br />digital products.</h1>
-    <p class="lede">I'm Sundus — I turn complex problems into simple, usable interfaces. Currently open to freelance and full-time roles.</p>
-    <div class="hero-actions">
-      <a href="#work" class="btn btn-primary">View work</a>
-      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+  <section class="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <p class="eyebrow"><span class="dot"></span>UI/UX Designer — Available for work</p>
+      <h1>I design clear,<br /><span class="grad-text">considered</span> digital products.</h1>
+      <p class="lede">I'm Sundus — I turn complex problems into simple, usable interfaces. Currently open to freelance and full-time roles.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
     </div>
   </section>
 
@@ -39,8 +44,8 @@
 
     <div class="projects">
 
-      <article class="project">
-        <div class="project-thumb" style="--tint:#e7e2da;">
+      <article class="project reveal">
+        <div class="project-thumb" style="--tint:#6d5efc;">
           <span class="thumb-label">Case Study</span>
         </div>
         <div class="project-body">
@@ -50,8 +55,8 @@
         </div>
       </article>
 
-      <article class="project">
-        <div class="project-thumb" style="--tint:#dfe4e1;">
+      <article class="project reveal">
+        <div class="project-thumb" style="--tint:#2fbf8f;">
           <span class="thumb-label">Case Study</span>
         </div>
         <div class="project-body">
@@ -61,8 +66,8 @@
         </div>
       </article>
 
-      <article class="project">
-        <div class="project-thumb" style="--tint:#e6ded9;">
+      <article class="project reveal">
+        <div class="project-thumb" style="--tint:#ff6b6b;">
           <span class="thumb-label">Case Study</span>
         </div>
         <div class="project-body">
@@ -72,8 +77,8 @@
         </div>
       </article>
 
-      <article class="project">
-        <div class="project-thumb" style="--tint:#dee1e6;">
+      <article class="project reveal">
+        <div class="project-thumb" style="--tint:#ffb86b;">
           <span class="thumb-label">Case Study</span>
         </div>
         <div class="project-body">
@@ -86,7 +91,7 @@
     </div>
   </section>
 
-  <section id="about" class="about wrap">
+  <section id="about" class="about wrap reveal">
     <h2 class="section-title">About</h2>
     <div class="about-grid">
       <p class="about-text">
@@ -107,7 +112,7 @@
     </div>
   </section>
 
-  <section id="contact" class="contact wrap">
+  <section id="contact" class="contact wrap reveal">
     <h2 class="section-title">Let's work together</h2>
     <p class="contact-lede">Have a project in mind, or just want to say hi?</p>
     <a href="mailto:sunduslive@gmail.com" class="btn btn-primary btn-large">sunduslive@gmail.com</a>
